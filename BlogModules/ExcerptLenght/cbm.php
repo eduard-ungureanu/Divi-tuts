@@ -621,10 +621,7 @@ class WPC_ET_Builder_Module_Blog extends ET_Builder_Module {
 				}
 
 				// Print output
-				echo 'test';
 				?>
-
-
 					<article id="" <?php post_class( 'wpc-blog-post et_pb_post clearfix' . $no_thumb_class . $overlay_class ) ?>>
 						<?php
 							et_divi_post_format_content();
