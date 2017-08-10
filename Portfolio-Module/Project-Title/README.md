@@ -1,4 +1,2 @@
-# Divi-tuts
-Divi Tips&amp;Tricks
-
-A collection of code snippets that can customize the Divi WordPress theme from Elegant themes.
+# Portfolio Module
+Change the Porfoltio module to allow custom `HTML` tags from the title to properly be rendered on the front-page.
