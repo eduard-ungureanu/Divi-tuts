@@ -1,0 +1,74 @@
+.et_pb_blog_grid .wpc-article-scroll {
+	padding: 0;
+	border: 0;
+}
+.wpc-article-scroll h2 {
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 1.2px;
+	background-image: linear-gradient(165deg,#173552 0%,#173552 100%);
+	background-color: #173552;
+	padding-top: 12px!important;
+	padding-right: 10px!important;
+	padding-bottom: 12px!important;
+	padding-left: 10px!important;
+	margin-bottom: 0px!important;
+	box-shadow: 0px 1px 55px -4px rgba(165,165,165,1);
+	text-shadow: 0px 0px 15px rgba(0,0,0,0.18);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-top: 0;
+	color: white;
+	text-align: center;
+}
+.layout {
+	border: 5px solid #fcfcfc;
+	border-top: 0;
+	border-radius: 3px;
+	margin-bottom: -25px!important;
+	-webkit-box-shadow: 0px 1px 55px -4px rgba(150,150,150,1);
+	-moz-box-shadow: 0px 1px 55px -4px rgba(150,150,150,1);
+	box-shadow: 0px 1px 55px -4px rgba(150,150,150,1);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	margin: 0;
+}
+.scrolleffect {
+	min-height: 420px;
+	display: block;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	position: relative;
+	-webkit-transition: background-position 1.3s ease-out 0.3s;
+	-moz-transition: background-position 1.3s ease-out 0.3s;
+	transition: background-position 1.3s ease-out 0.3s;
+}
+.scrolleffect:hover {
+	-webkit-transition: background-position 4s linear 0s;
+	-moz-transition: background-position 4s linear 0s;
+	transition: background-position 4s linear 0s;
+	background-position: center bottom;
+}
+.wpc-article-scroll .post-content {
+	text-align: center;
+}
+.wpc-article-scroll .wpc-button {
+	color: #ffffff!important;
+	background: #0eb0cd;
+	border-color: #0eb0cd;
+	letter-spacing: 0px;
+	font-size: 20px;
+	text-transform: uppercase!important;
+	display: inline-block;
+	position: relative;
+}
+.wpc-article-scroll .wpc-button:after {
+	display: none;
+}
+.wpc-article-scroll .wpc-button:hover {
+	color: #ffffff!important;
+	background: #173552!important;
+	border-color: #173552!important;
+	padding: 0.3em 1em;
+}
