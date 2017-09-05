@@ -3,7 +3,7 @@
 1. download the `transparend.png` file from the images folder
 2. upload the `transparent.png` file to your `child theme folder > images`
 3. in the `custom-modules` folder create a new folder called `cbm.php`
-4. in the `cbm.php` file add the code from `cbm.php` file above
+4. in the `cbm.php` file add the code from `custom-modules/cbm.php` file above
 5. in `functions.php` put the code from `functions.php` file above
 
 Once everything is done, when you edit the blog module, you will have a new option to enable/disable the scrolling post effect.
