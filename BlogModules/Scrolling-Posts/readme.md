@@ -7,7 +7,7 @@
 5. in `functions.php` put the code from `functions.php` file above
 
 Once everything is done, when you edit the blog module, you will have a new option to enable/disable the scrolling post effect.
-[Scrolling Option](https://www.dropbox.com/s/i0k8yepecfz0knp/Screenshot%202017-09-05%2023.57.30.png?raw=1)
+![Scrolling Option](https://www.dropbox.com/s/i0k8yepecfz0knp/Screenshot%202017-09-05%2023.57.30.png?raw=1)
 
 Make sure that the following options are disabled in the Blog Module Settings:
 * Show Author
