@@ -1,0 +1,109 @@
+.et_fullscreen_slider .et_pb_slides,
+.et_fullscreen_slider .et_pb_slide,
+.et_fullscreen_slider .et_pb_container {
+	height: 100% ;
+	min-height: 100% ;
+} 
+.menu_bar:before {
+	color: yellow !important;
+}
+.et_pb_toggle_open .et_pb_toggle_title:before {
+	content: "\e04f";
+	display: block !important;
+}
+
+a:link {
+	border-bottom: 2px;
+	color: #41413a
+}
+.mobile_menu_bar.mobile_menu_bar_toggle::before {
+	color: #fac70c;
+}
+
+/*-----------------------------------------------*/
+/*-----Scrolling Image Carousel by Divi Soup-----*/
+/*-----------------------------------------------*/
+.wpc-carousel {
+	overflow: hidden;
+}
+.wpc-carousel .ds-carousel-logo {
+	float: left;
+	position: absolute;
+	width: 20%;
+}
+.wpc-carousel .et_pb_column {
+	-webkit-animation: 30s wpcScroll infinite linear;
+	animation: 30s wpcScroll infinite linear;
+	min-height: 179px;
+}
+
+@-webkit-keyframes wpcScroll {
+	0% {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+	100% {
+		-webkit-transform: translateX(-300%);
+		transform: translateX(-300%);
+	}
+}
+
+@keyframes wpcScroll {
+	0% {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+	100% {
+		-webkit-transform: translateX(-300%);
+		transform: translateX(-300%);
+	}
+}
+
+@-webkit-keyframes wpcScrollMobile {
+	0% {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+	100% {
+		-webkit-transform: translateX(-700%);
+		transform: translateX(-700%);
+	}
+}
+
+@keyframes wpcScrollMobile {
+	0% {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+	100% {
+		-webkit-transform: translateX(-700%);
+		transform: translateX(-700%);
+	}
+}
+/* Center Footer Menu */
+#footer-info,
+#footer-info a {
+	float: none;
+	text-align: center;
+}
+
+@media (max-width: 980px) {
+	.wpc-carousel .et_pb_column {
+		min-height: 139px;
+	}
+}
+@media (max-width: 767px) {
+	.wpc-carousel .et_pb_column {
+		min-height: 109px;
+	}
+}
+@media (max-width: 480px) {
+	.wpc-carousel .et_pb_column {
+		min-height: 170px;
+		-webkit-animation: 30s wpcScrollMobile infinite linear;
+		animation: 30s wpcScrollMobile infinite linear;
+	}
+	.wpc-carousel .ds-carousel-logo {
+		width: 50%;
+	}
+}
