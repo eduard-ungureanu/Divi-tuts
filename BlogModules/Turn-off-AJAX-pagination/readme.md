@@ -1,4 +1,4 @@
-##UPDATE:
+## UPDATE:
 This solution was designed to work in older Divi Version, if you are using Divi 3.0 and above this solution will not work.
 
 ## How to use the files
